@@ -6,7 +6,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   const handleAddTask = async () => {
-    const response = await axios.post("http://localhost:5173/tasks", {
+    const response = await axios.post("http://localhost:4000/tasks", {
       name: task,
     });
     setTasks([...tasks, response.data]);

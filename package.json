@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start-server": "cd ./node_backend && npm start"
+    "start-server": "cd ./node_backend && npm start",
+    "cypress:open": "npx cypress open"
   },
   "dependencies": {
     "axios": "^1.10.0",
